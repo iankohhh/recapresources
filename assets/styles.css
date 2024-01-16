@@ -705,6 +705,7 @@
         .fixed-card{
             height:100%;
             color:black;
+            padding:10px;
         }
 
         .card-img{
