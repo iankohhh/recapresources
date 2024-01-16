@@ -713,3 +713,7 @@
             object-fit:cover;
         }
 
+        .card-margin{
+            padding:10px;
+        }
+
