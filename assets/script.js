@@ -22,7 +22,7 @@ function downloadFile() {
         .catch(error => console.error('Error:', error));
 }
 
-function downloadFile() {
+function downloadCheatsheet() {
     // Replace 'your-api-endpoint' with the actual URL of your API Gateway endpoint
     var apiEndpoint = 'https://ja9vw9anx2.execute-api.ap-southeast-1.amazonaws.com/test/cheatsheet';
 
