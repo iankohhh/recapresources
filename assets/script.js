@@ -5,12 +5,16 @@ function downloadFile() {
     // Make a GET request to the API endpoint
     fetch(apiEndpoint)
         .then(response => {
+            console.log(response);
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
-            return response.text();
+            return response.json(); // Parse the response as JSON
         })
-        .then(url => {
+        .then(data => {
+            // Extract the URL directly from the "body" property
+            var url = data.body;
+
             // Create a hidden link and trigger the download
             var link = document.createElement('a');
             link.href = url;
@@ -29,12 +33,16 @@ function downloadCheatsheet() {
     // Make a GET request to the API endpoint
     fetch(apiEndpoint)
         .then(response => {
+            console.log(response);
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
             }
-            return response.text();
+            return response.json(); // Parse the response as JSON
         })
-        .then(url => {
+        .then(data => {
+            // Extract the URL directly from the "body" property
+            var url = data.body;
+
             // Create a hidden link and trigger the download
             var link = document.createElement('a');
             link.href = url;
