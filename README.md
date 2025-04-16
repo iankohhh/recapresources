@@ -14,9 +14,7 @@ Welcome to the AWS re:Invent 2023 Resources repository! This static website is d
 
 ## How to Use
 
-Simply navigate to the [static website](https://main.d2o827d19bzu23.amplifyapp.com/) and explore the various sections to access the resources mentioned above. Click on the provided links to view YouTube playlists, download slide decks, and stay informed about the latest AWS announcements.
-
-## Contribution Guidelines
+### Contribution Guidelines
 
 We welcome contributions from Solutions Architects in the ASEAN region to improve and expand this resource hub. If you have additional resources, insights, or suggestions, please feel free to contribute by following these steps:
 
