@@ -2,6 +2,9 @@
 
 Welcome to the AWS re:Invent 2023 Resources repository! This static website is designed to provide consolidated and easy access to various re:Invent 2023 materials, ensuring that our customers and Solutions Architects in ASEAN have a comprehensive resource hub at their fingertips.
 
+## Preview
+![image](preview.png)
+
 ## Features
 
 - **YouTube Playlists:** Access all re:Invent 2023 sessions, keynotes, and talks through our curated YouTube playlists.
